@@ -1,16 +1,76 @@
-# React + Vite
+# VaultofCodes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive technology-focused homepage for VaultofCodes, designed around practical learning, software products, and student growth.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Deployed using Vercel.
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+VaultofCodes is a technology and education platform concept that focuses on helping students learn technology, build real-world projects, and explore opportunities in the software industry.
 
-## Expanding the ESLint configuration
+The website presents VaultofCodes through a modern dark-themed interface with interactive sections, animated particles, responsive layouts, and smooth navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive desktop, tablet, and mobile design
+- Modern dark-themed UI
+- Animated particle background
+- Hero section with interactive visual effects
+- What We Do section
+- Featured Programs section
+- Software & SaaS section
+- Why VaultofCodes section
+- Animated statistics counters
+- How It Works section
+- Community and student projects section
+- Final call-to-action section
+- Footer with navigation and social links
+- Smooth scrolling navigation
+- Interactive cards and buttons
+- Mobile navigation menu
+- Scroll-based reveal animations
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+- OGL
+- Intersection Observer API
+
+## Project Structure
+
+```text
+vaultofcodes/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Community.jsx
+│   │   ├── FinalCTA.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Particles.jsx
+│   │   ├── Programs.jsx
+│   │   ├── Reveal.jsx
+│   │   ├── Software.jsx
+│   │   ├── Statistics.jsx
+│   │   ├── WhatWeDo.jsx
+│   │   └── WhyVault.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+└── README.md
